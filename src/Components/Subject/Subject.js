@@ -2,7 +2,7 @@ import React from 'react';
 import './Subject.css'
 
 const Subject = (props) => {
-    console.log(props);
+    // console.log(props);
     const { name, mentor, price} = props.subject;
     return (
         <div className="courses-box">
@@ -12,7 +12,9 @@ const Subject = (props) => {
             <br></br>
             <p>Price: {price}$</p>
             <br></br>
-            <button className="btn btn-success">Enroll Now</button>
+            <button className="btn btn-success"
+            onClick={() => props.handleAddCourse(props.subject)}
+            >Enroll Now</button>
 
         </div>
     );

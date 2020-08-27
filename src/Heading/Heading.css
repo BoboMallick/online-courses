@@ -1,5 +1,5 @@
 .heading nav{
-    background-color: black;
+    background-color: rgb(25, 143, 14);
     line-height: 40px;
     font-size:20px;
     text-align:left;
@@ -15,4 +15,8 @@ nav a:hover{
     background-color: gray;
     text-decoration: none;
     color:black;
+}
+.online{
+    text-align: center;
+    
 }
